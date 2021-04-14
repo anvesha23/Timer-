@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Timer by Anvesha</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet"
+    </head>
+    <body>
+        <div class='container'>
+            <div class='timer'>
+                <span class='min'>00</span>
+                <span>:</span>
+                <span class='sec'>00</span>
+            </div>
+            <div class='stand-by'></div>
+        </div>
+        <div class="control-panel">
+            <div class="left">
+                <p>How to use?</p>
+                <p>Press or hold the buttons "+" or "-" to select the start time.<br> Or you can insert time in the form below.</p>
+                <p>Press the Start button. The second click on this button stops the contdown.</p>
+                <p>The Reset button returns timer to 00:00.</p>
+                <p>During the countdown, the time control is locked.</p>
+                <p>In any time you can collapse this panel by clicking on the button in the center.</p>
+            </div>
+            <div class="right">
+                <button class='btn btn-plus'>+</button>
+                <button class='btn btn-minus'>-</button>
+                <button class='btn btn-start-stop'>start/stop</button>
+                <button class='btn btn-reset'>reset</button>
+                <p class='input'>You may input start time here:</p>
+                <input id='minutes-from-form' type="number" placeholder="minutes">
+                <input id='seconds-from-form' type="number" placeholder="seconds">
+                <button class='btn btn-insert'>insert</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
